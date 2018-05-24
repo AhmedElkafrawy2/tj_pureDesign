@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <title>تجربتي - اتصل بنا</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/cairo/cairo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="page-template contact-us">
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Skip to content -->
+<ul class="skip-links list-unstyled m-0 p-0">
+    <li><a href="#primary-navigation" class="sr-only">تخطي للقائمة الرئيسية</a></li>
+    <li><a href="#page-content" class="sr-only">تخطي للمحتوى</a></li>
+</ul>
+<!-- Start coding... -->
+<header class="site-header">
+    <div class="top-bar bg-pink py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center">
+                    <div class="top-right">
+                        <ul class="nav social pr-0">
+                            <li class="nav-item">
+                                <a href="https://facebook.com" class="nav-link text-white px-1">
+                                    <i class="fa fa-facebook fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://twitter.com" class="nav-link text-white px-1">
+                                    <i class="fa fa-twitter fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://google.com" class="nav-link text-white px-1">
+                                    <i class="fa fa-google-plus fa-fw"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- top-right -->
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center">
+                    <div class="top-left">
+                        <!-- Button trigger modal -->
+                        <ul class="nav pr-0">
+                            <li class="nav-item">
+                                <a href="#"
+                                   class="nav-link text-white"
+                                   data-toggle="modal"
+                                   data-target="#login-form">
+                                    <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                                    تسجيل الدخول
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#"
+                                   class="nav-link text-white"
+                                   data-toggle="modal"
+                                   data-target="#register-form">
+                                    <i class="fa fa-lock fa-fw" aria-hidden="true"></i>
+                                    حساب جديد
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- Modal -->
+                        <div class="modal fade"
+                             id="login-form"
+                             tabindex="-1"
+                             role="dialog"
+                             aria-labelledby="login-form"
+                             aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header border-bottom-0 bg-pink text-white px-4">
+                                        <h5 class="modal-title" id="login-form-title">الدخول</h5>
+                                    </div>
+                                    <div class="modal-body px-4">
+                                        <form class="pt-3">
+                                            <div class="form-group">
+                                                <label for="login-tel" class="sr-only">رقم الهاتف</label>
+                                                <input type="tel"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="login-tel"
+                                                       placeholder="رقم الهاتف">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="login-password" class="sr-only">كلمة السر</label>
+                                                <input type="password"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="login-password"
+                                                       placeholder="كلمة السر">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer flex-column border-top-0 px-4">
+                                        <button type="submit"
+                                                class="btn btn-outline-pink radius btn-block line-height-lg"
+                                                data-dismiss="modal">تسجيل الدخول</button>
+                                        <ul class="nav justify-content-between px-0 mx-0 w-100 mt-3">
+                                            <li class="nav-item">
+                                                <a href="#"
+                                                   class="nav-link"
+                                                   data-toggle="modal"
+                                                   data-dismiss="modal"
+                                                   data-target="#recover-form">نسيت كلمة السر؟</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#"
+                                                   class="nav-link"
+                                                   data-toggle="modal"
+                                                   data-dismiss="modal"
+                                                   data-target="#register-form">ليس لدي حساب</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- modal -->
+                        <div class="modal fade"
+                             id="recover-form"
+                             tabindex="-1"
+                             role="dialog"
+                             aria-labelledby="recover-form"
+                             aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header border-bottom-0 bg-pink text-white px-4">
+                                        <h5 class="modal-title" id="recover-form-title">إستعادة كلمة المرور</h5>
+                                    </div>
+                                    <div class="modal-body px-4">
+                                        <form class="pt-3">
+                                            <div class="form-group">
+                                                <label for="login-tel" class="sr-only">رقم الهاتف</label>
+                                                <input type="tel"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="recover-tel"
+                                                       placeholder="رقم الهاتف">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer flex-column border-top-0 px-4">
+                                        <button type="submit"
+                                                class="btn btn-outline-pink radius btn-block line-height-lg"
+                                                data-dismiss="modal">إرسال</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- modal -->
+                        <div class="modal fade"
+                             id="register-form"
+                             tabindex="-1"
+                             role="dialog"
+                             aria-labelledby="register-form"
+                             aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content border-0">
+                                    <div class="modal-header border-bottom-0 bg-pink text-white px-4">
+                                        <h5 class="modal-title" id="register-form-title">التسجيل</h5>
+                                    </div>
+                                    <div class="modal-body px-4">
+                                        <form class="pt-3">
+                                            <div class="form-group">
+                                                <label for="name" class="sr-only">الاسم بالكامل</label>
+                                                <input type="text"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="name"
+                                                       placeholder="الاسم بالكامل">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tel" class="sr-only">رقم الهاتف</label>
+                                                <input type="tel"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="tel"
+                                                       placeholder="رقم الهاتف">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="gender" class="sr-only">الجنس</label>
+                                                <select class="custom-select rounded-0 border-lighten py-0 text-light" id="gender">
+                                                    <option selected>الجنس</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="age" class="sr-only">العمر</label>
+                                                <select class="custom-select rounded-0 border-lighten py-0 text-light" id="age">
+                                                    <option selected>العمر</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="country" class="sr-only">البلد</label>
+                                                <select class="custom-select rounded-0 border-lighten py-0 text-light" id="country">
+                                                    <option selected>البلد</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="city" class="sr-only">المدينة</label>
+                                                <select class="custom-select h-auto rounded-0 border-lighten py-0 text-light" id="city">
+                                                    <option selected>المدينة</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password" class="sr-only">كلمة السر</label>
+                                                <input type="password"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="password"
+                                                       placeholder="كلمة السر">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password-confirm" class="sr-only">تأكيد كلمة السر</label>
+                                                <input type="password"
+                                                       class="form-control h-auto rounded-0 border-lighten"
+                                                       id="password-confirm"
+                                                       placeholder="تأكيد كلمة السر">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer border-top-0 px-4">
+                                        <button type="submit"
+                                                class="btn btn-outline-pink radius btn-block line-height-lg"
+                                                data-dismiss="modal">تسجيل</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- modal -->
+                    </div><!-- top-left -->
+                </div>
+            </div>
+        </div><!-- container -->
+    </div><!-- top-bar -->
+
+
+    <nav id="primary-navigation" class="primary-navigation navbar navbar-expand-md font-weight-bold py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-dark mr-0 pt-0">
+                <h1 class="site-title m-0 font-baloo">تجربتي</h1>
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbar-collapse"
+                    aria-controls="navbar-collapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-fw fa-lg"></i>
+            </button>
+
+            <div id="navbar-collapse" class="collapse navbar-collapse">
+                <div class="navbar-nav mr-sm-auto position-relative">
+                    <a href="index.html" class="nav-item nav-link">الرئيسية</a>
+                    <a href="page.html" class="nav-item nav-link">من نحن</a>
+
+                    <div class="dropdown">
+                        <a href="experience.html"
+                           id="experience"
+                           class="nav-item nav-link dropdown-toggle"
+                           aria-haspopup="true"
+                           aria-expanded="false"
+                           data-toggle="dropdown">أحدث التجارب</a>
+                        <div class="dropdown-menu text-right" aria-labelledby="experience">
+                            <a href="experience.html" class="dropdown-item active bg-pink">عنصر أول</a>
+                            <a href="experience.html" class="dropdown-item">عنصر ثاني</a>
+                            <a href="experience.html" class="dropdown-item">عنصر ثالث</a>
+                        </div>
+                    </div>
+
+                    <a href="question.html" class="nav-item nav-link">الأسئلة</a>
+                    <a href="category.html" class="nav-item nav-link">الأقسام</a>
+                    <a href="contact.html" class="nav-item nav-link text-pink active">اتصل بنا</a>
+                    <a href="#" id="search-trigger" class="nav-item nav-link  search-trigger">
+                        <i class="fa fa-search fa-fw"></i>
+                    </a>
+                    <form id="search-form" class="form-inline search-form">
+                        <div class="input-group">
+                            <input type="text"
+                                   class="form-control border-lighten"
+                                   placeholder="بحث...">
+                            <button class="btn btn-pink mr-1" type="submit">
+                                <i class="fa fa-search fa-fw text-white" aria-label="Search"></i>
+                            </button>
+                        </div><!-- input-group -->
+                    </form><!-- form-inline -->
+                </div><!-- navbar-nav -->
+            </div><!-- navbar-collapse -->
+        </div><!-- container -->
+    </nav><!-- primary-navigation -->
+</header><!-- site-header -->
+
+<main class="site-content py-5">
+
+    <div class="container">
+
+        <h1 class="page-title h4 font-cairo-bold text-center">
+            اتصل بنا
+        </h1><!-- page-title -->
+
+        <div class="contact-form-wrap mt-5 py-5">
+            <h5 class="font-cairo-bold mb-5">أرسل رسالة</h5>
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="your-name" class="sr-only">الاسم بالكامل</label>
+                        <input type="text" class="form-control border-lighten rounded-0" id="your-name" placeholder="الاسم بالكامل">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="your-email" class="sr-only">البريد الإليكتروني</label>
+                        <input type="email" class="form-control border-lighten rounded-0" id="your-email" placeholder="البريد الإليكتروني">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="your-location" class="sr-only">الموقع</label>
+                        <input type="text" class="form-control border-lighten rounded-0" id="your-location" placeholder="الموقع">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="your-message" class="sr-only">الرسالة</label>
+                    <textarea class="form-control border-lighten rounded-0" id="your-message" rows="5" placeholder="الرسالة"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary text-white radius px-5 line-height-lg">إرسال</button>
+            </form>
+
+        </div><!-- reply -->
+
+    </div><!-- container -->
+
+</main><!-- site-content -->
+
+<footer class="site-footer bg-darkest pt-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="widget col-12 col-md-4">
+                <h1 class="site-title text-center text-md-right">
+                    <a href="index.html" class="font-baloo text-white nav-link p-0">تجربتي</a>
+                </h1>
+                <ul class="nav social pr-0 mt-5 justify-content-center justify-content-md-start">
+                    <li class="nav-item ml-3">
+                        <a href="https://facebook.com" class="nav-link text-white bg-pink rounded-circle p-0 text-center">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="https://twitter.com" class="nav-link text-white bg-pink rounded-circle p-0 text-center">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="https://google.com" class="nav-link text-white bg-pink rounded-circle p-0 text-center">
+                            <i class="fa fa-google-plus p-0"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://instagram.com" class="nav-link text-white bg-pink rounded-circle p-0 text-center">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- widget -->
+            <div class="widget col-12 col-md-4 mt-md-0 mt-5"><!-- widget -->
+                <h6 class="widget-title text-white">روابط سريعة</h6><!-- widget-title -->
+                <ul class="hot-links list-unstyled mt-3 pr-0">
+                    <li>
+                        <a href="submit.html" class="text-light nav-link pr-0">
+                            <i class="fa fa-chevron-left text-pink ml-2"></i>
+                            من نحن
+                        </a>
+                    </li>
+                    <li>
+                        <a href="experience.html" class="text-light nav-link pr-0">
+                            <i class="fa fa-chevron-left text-pink ml-2"></i>
+                            أحدث التجارب
+                        </a>
+                    </li>
+                    <li>
+                        <a href="question.html" class="text-light nav-link pr-0">
+                            <i class="fa fa-chevron-left text-pink ml-2"></i>
+                            الأسئلة
+                        </a>
+                    </li>
+                    <li>
+                        <a href="category.html" class="text-light nav-link pr-0">
+                            <i class="fa fa-chevron-left text-pink ml-2"></i>
+                            الأقسام
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="text-light nav-link pr-0">
+                            <i class="fa fa-chevron-left text-pink ml-2"></i>
+                            اتصل بنا
+                        </a>
+                    </li>
+                </ul><!-- hot-links -->
+            </div><!-- widget -->
+            <div class="widget col-12 col-md-4 mt-md-0 mt-5">
+                <h6 class="widget-title text-white">القائمة البريدية</h6>
+                <form class="form-inline subscribe-form mt-4 pt-1">
+                    <div class="input-group w-100">
+                        <div class="input-group-prepend order-1">
+                            <button class="submit-button btn btn-pink text-white px-4 py-2 border-trans border-right-0"
+                                    type="button">إرسال</button>
+                        </div>
+                        <input type="email"
+                               class="form-control border-trans text-right submit-field py-2"
+                               placeholder="البريد الإليكتروني"
+                               aria-label="البريد الإليكتروني"
+                               aria-describedby="basic-addon1">
+
+                    </div>
+                    <p class="text-light mt-3 form-notice line-height-lg">
+                        نخن لا نقوم بإرسال رسائل ترويجية ولا نقوم بتسليم البيانات لجهة أخرى
+                    </p>
+                </form>
+            </div><!-- widget -->
+        </div><!-- row -->
+    </div><!-- container -->
+    <div class="bottom-bar bg-darken py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                    <p class="copyright text-light m-0">
+                        جميع الحقوق محفوظة لموقع تجربتي <i class="fa fa-copyright fa-fw"></i> 2018
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center">
+                    <ul class="nav pr-0 mt-3 mt-md-auto">
+                        <li class="nav-item">
+                            <a href="index.html"
+                               class="nav-link text-light">
+                                سياسة الخصوصية
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html"
+                               class="nav-link text-light position-relative">
+                                الشروط والأحكام
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html"
+                               class="nav-link text-light">
+                                اتصل بنا
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- bottom-bar -->
+</footer><!-- site-footer -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.2.1.min.js"><\/script>');
+</script>
+<script src="assets/js/vendor/popper.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>
